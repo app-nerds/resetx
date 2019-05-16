@@ -8,22 +8,22 @@ In a Single File Component (SFC):
 
 ```vue
 <template>
-	<input type="text" v-model="myInput" v-reset-x />
+   <input type="text" v-model="myInput" v-reset-x />
 </template>
 
 <script>
 import ResetX from "@app-nerds/resetx";
 
 export default {
-	directives: {
-		ResetX
-	},
+directives: {
+   ResetX
+   },
 
-	data() {
-		return {
-			myInput: ""
-		}
-	}
+   data() {
+      return {
+         myInput: ""
+      }
+   }
 };
 </script>
 ```
