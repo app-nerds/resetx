@@ -15,8 +15,8 @@ In a Single File Component (SFC):
 import ResetX from "@app-nerds/resetx";
 
 export default {
-directives: {
-   ResetX
+   directives: {
+      ResetX
    },
 
    data() {
