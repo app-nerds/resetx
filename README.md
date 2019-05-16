@@ -3,6 +3,8 @@
 ResetX is a VueJS directive that adds an "X" to input form elements
 that, when clicked, clears their value.
 
+![Screenshot](./screenshots/screenshot-1.png)
+
 ## Example Usage
 In a Single File Component (SFC):
 
