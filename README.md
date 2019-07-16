@@ -24,7 +24,7 @@ In a Single File Component (SFC):
 </template>
 
 <script>
-import ResetX from "@app-nerds/resetx";
+import { ResetX } from "@app-nerds/resetx";
 
 export default {
    directives: {
