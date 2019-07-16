@@ -1,14 +1,18 @@
 {
 	"name": "@app-nerds/resetx",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"private": true,
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"scripts": {
 		"build:bundle": "vue-cli-service build --target lib --name resetx ./src/index.js"
 	},
 	"main": "src/index.js",
 	"module": "./dist/resetx.esm.js",
 	"unpkg": "./dist/resetx.min.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/app-nerds/resetx"
+	},
 	"dependencies": {
 		"core-js": "^2.6.5",
 		"vue": "^2.6.10"

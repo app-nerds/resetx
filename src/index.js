@@ -1,8 +1,7 @@
-import Vue from "vue";
-
+const Vue = require("vue").default;
 let component = null;
 
-export default {
+module.exports = {
 	/**
 	 * Called by Vue when the directive is created
 	 * @param {*} el DOM element this directive is attached to
