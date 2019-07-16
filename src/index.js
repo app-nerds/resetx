@@ -1,7 +1,7 @@
 const Vue = require("vue").default;
 let component = null;
 
-module.exports = {
+module.exports.ResetX = {
 	/**
 	 * Called by Vue when the directive is created
 	 * @param {*} el DOM element this directive is attached to
