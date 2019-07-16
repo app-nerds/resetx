@@ -5,6 +5,15 @@ that, when clicked, clears their value.
 
 ![Screenshot](./screenshots/screenshot-1.png)
 
+## Installation
+
+To use in your own ES6 JavaScript projects simply install this as
+a dependency.
+
+```bash
+npm install --save https://github.com/app-nerds/resetx
+```
+
 ## Example Usage
 
 In a Single File Component (SFC):
